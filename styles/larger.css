@@ -1,0 +1,44 @@
+@media screen and (min-width: 768px) {
+
+    /* 🔹 Navigation becomes horizontal */
+    nav ul {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: flex-end;
+        background: none;
+    }
+
+    nav a {
+        padding: 1rem 1.5rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    /* 🔹 Layout sections side-by-side if applicable */
+    .about-me-container {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .about-me,
+    .photo {
+        flex: 1 1 45%;
+    }
+
+    .course-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* You can also try 3 */
+        gap: 1.5rem;
+    }
+
+    footer {
+        text-align: center;
+        padding: 3rem 1rem;
+    }
+}

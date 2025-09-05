@@ -1,0 +1,130 @@
+:root {
+    --primary: #2C3E50;
+    --accent: #E67E22;
+    --background: #F9FAFB;
+    --card-bg: #ffffff;
+    --text: #2C3E50;
+    --text-muted: #7F8C8D;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#menu {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: var(--primary);
+}
+
+nav ul.open {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background: var(--accent);
+    color: white;
+}
+
+main {
+    padding: 1.5rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1,
+h2 {
+    color: var(--primary);
+}
+
+section {
+    background-color: var(--card-bg);
+    padding: 1.25rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.filters {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.filters button {
+    padding: 0.5rem 1rem;
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filters button:hover {
+    background: #cf6d17;
+}
+
+.course-card {
+    background: white;
+    border-left: 5px solid var(--primary);
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.completed {
+    border-left-color: #27ae60;
+    background-color: #ecf9f1;
+}
+
+footer {
+    background: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+}
