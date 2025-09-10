@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Directory | Cape Town Chamber of Commerce</title>
+    <meta name="description" content="Business directory for Cape Town Chamber of Commerce members.">
+    <meta name="author" content="Mellissa Qoqa">
+
+    <!-- Facebook Meta -->
+    <meta property="og:title" content="Cape Town Chamber of Commerce Directory">
+    <meta property="og:description" content="Browse members of the Cape Town Chamber of Commerce.">
+    <meta property="og:image" content="images/social-share.png">
+    <meta property="og:url" content="https://yourdomain.com/chamber/directory.html">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/chamber.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Cape Town Chamber of Commerce</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+        <button id="menu-toggle">☰</button>
+    </header>
+
+    <main>
+        <h1>Business Directory</h1>
+
+        <div class="view-buttons">
+            <button id="grid-btn">Grid View</button>
+            <button id="list-btn">List View</button>
+        </div>
+
+        <div id="directory" class="grid-view">
+            <!-- Business cards will be injected here -->
+        </div>
+    </main>
+
+    <footer>
+        <section class="footer-info">
+            <p><strong>Cape Town Chamber of Commerce</strong><br>
+                123 Long Street, Cape Town, South Africa<br>
+                info@capetowncc.org | (+27) 21-555-2300</p>
+        </section>
+        <section class="footer-dev">
+            <p>WDD231 Class Project | Mellissa Qoqa</p>
+            <p>&copy; <span id="year"></span> Cape Town Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </section>
+    </footer>
+
+    <script src="scripts/chamber.js" defer></script>
+</body>
+
+</html>
