@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Table Mountain Tours",
+        "address": "12 Signal Hill Rd, Cape Town",
+        "phone": "+27 21 555 1111",
+        "website": "http://tablemountaintours.co.za",
+        "image": "images/table-mountain.png",
+        "membership": 3,
+        "description": "Guided tours and experiences at Table Mountain National Park."
+    },
+    {
+        "name": "Cape Coffee Roasters",
+        "address": "45 Loop Street, Cape Town",
+        "phone": "+27 21 555 2222",
+        "website": "http://capecoffee.co.za",
+        "image": "images/cape-coffee.png",
+        "membership": 2,
+        "description": "Local coffee roasters specializing in African beans."
+    },
+    {
+        "name": "Atlantic Seaside Hotel",
+        "address": "89 Beach Rd, Sea Point, Cape Town",
+        "phone": "+27 21 555 3333",
+        "website": "http://atlanticseaside.co.za",
+        "image": "images/atlantic-hotel.png",
+        "membership": 1,
+        "description": "Beachfront hotel offering luxury stays and conference facilities."
+    },
+    {
+        "name": "Cape Tech Solutions",
+        "address": "101 Innovation Hub, Cape Town",
+        "phone": "+27 21 555 4444",
+        "website": "http://capetech.co.za",
+        "image": "images/cape-tech.png",
+        "membership": 2,
+        "description": "IT and software development services for local businesses."
+    },
+    {
+        "name": "Kirstenbosch Gardens Café",
+        "address": "Rhodes Drive, Newlands, Cape Town",
+        "phone": "+27 21 555 5555",
+        "website": "http://kirstenboschgarden.cafe",
+        "image": "images/kirstenbosch-cafe.png",
+        "membership": 3,
+        "description": "Famouse Cafe located inside the famous Kirstenbosch Botanical Gardens."
+    },
+    {
+        "name": "Cape Winelands Transport",
+        "address": "56 Stellenbosch Rd, Cape Town",
+        "phone": "+27 21 555 6666",
+        "website": "http://capewinelands-transport.co.za",
+        "image": "images/cape-winelands.png",
+        "membership": 1,
+        "description": "Shuttle and transport services across Cape Town and the Winelands."
+    },
+    {
+        "name": "Robben Island Ferry Services",
+        "address": "Nelson Mandela Gateway, V&A Waterfront, Cape Town",
+        "phone": "+27 21 555 7777",
+        "website": "http://robbenislandferry.co.za",
+        "image": "images/robben-island.png",
+        "membership": 2,
+        "description": "Official ferry operator providing trips to Robben Island."
+    }
+]
