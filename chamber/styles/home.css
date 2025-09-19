@@ -1,0 +1,318 @@
+/* ==== Reset & Base Styles ==== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ==== Header ==== */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+/* ==== Navigation ==== */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: lightblue;
+    color: #004080;
+}
+
+/* ==== Hero Section ==== */
+#hero {
+    position: relative;
+    overflow: hidden;
+    max-height: 450px;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    filter: brightness(0.75);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: white;
+    max-width: 400px;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background-color: lightskyblue;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: lightblue;
+}
+
+/* ==== Events Section ==== */
+#events {
+    padding: 2rem;
+    background-color: white;
+    max-width: 1200px;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+#events h2 {
+    margin-bottom: 1.5rem;
+    color: #004080;
+}
+
+.event-list {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.event-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    flex: 1 1 280px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h3 {
+    margin-top: 0;
+    color: #004080;
+}
+
+/* ==== Weather Section ==== */
+#weather {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+#weather h2 {
+    color: #004080;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.weather-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+#current-weather,
+#forecast {
+    flex: 1 1 320px;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#current-weather {
+    text-align: center;
+}
+
+#current-weather h2 {
+    margin-bottom: 0.5rem;
+}
+
+#current-weather img {
+    width: 80px;
+    margin-bottom: 0.5rem;
+}
+
+.weather-content {
+    margin: 1rem 0;
+}
+
+.main-day-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.day-box {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 140px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.day-box:hover {
+    background-color: #e6f0ff;
+}
+
+.day-box h4 {
+    margin: 0 0 0.5rem;
+    color: #004080;
+}
+
+.day-box img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0.3rem;
+}
+
+.day-box p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* ==== Spotlights Section ==== */
+#spotlights {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem 2rem;
+}
+
+#spotlights h2 {
+    color: #004080;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.spotlight-cards {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem 1.2rem;
+    flex: 1 1 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    max-width: 120px;
+    max-height: 80px;
+    margin-bottom: 1rem;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.card h3 {
+    margin: 0.5rem 0 0.3rem;
+    color: #004080;
+}
+
+.card p {
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+}
+
+/* ==== Footer ==== */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 1.2rem 1rem;
+    font-size: 0.9rem;
+}
+
+/* ==== Responsive Styles ==== */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start;
+    }
+
+    .hero-text {
+        left: 5%;
+        max-width: 90%;
+        font-size: 1.2rem;
+    }
+
+    #hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .event-list,
+    .spotlight-cards,
+    .main-day-box,
+    .weather-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .event-card,
+    .card,
+    #current-weather,
+    #forecast,
+    .day-box {
+        width: 100%;
+        max-width: 350px;
+    }
+}

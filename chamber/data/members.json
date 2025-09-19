@@ -1,0 +1,79 @@
+[
+    {
+        "Name": "Cape Tech Co.",
+        "Industry": "Technology",
+        "Physical Address": "123 Innovation Drive, Cape Town",
+        "Website": "https://capetech.co.za",
+        "Phone": "021 123 4567",
+        "Representative": "Sarah Johnson / CEO",
+        "MemberSince": "01/01/2018",
+        "Membership": "Gold",
+        "logo": "images/capetech-logo.png"
+    },
+    {
+        "Name": "Seaside Bakery",
+        "Industry": "Food & Beverage",
+        "Physical Address": "45 Ocean View Road, Cape Town",
+        "Website": "https://seasidebakery.co.za",
+        "Phone": "021 987 6543",
+        "Representative": "Mark Davies / Founder",
+        "MemberSince": "15/06/2019",
+        "Membership": "Silver",
+        "logo": "images/seasidebakery.png"
+    },
+    {
+        "Name": "Table Mountain Tours",
+        "Industry": "Tourism",
+        "Physical Address": "12 Signal Hill Rd, Cape Town",
+        "Website": "http://tablemountaintours.co.za",
+        "Phone": "+27 21 555 1111",
+        "Representative": "Lindiwe Mbeki / Operations Manager",
+        "MemberSince": "23/04/2017",
+        "Membership": "Gold",
+        "logo": "images/table-mountain.png"
+    },
+    {
+        "Name": "Cape Coffee Roasters",
+        "Industry": "Food & Beverage",
+        "Physical Address": "45 Loop Street, Cape Town",
+        "Website": "http://capecoffee.co.za",
+        "Phone": "+27 21 555 2222",
+        "Representative": "Johan van der Merwe / Head Roaster",
+        "MemberSince": "10/11/2020",
+        "Membership": "Silver",
+        "logo": "images/cape-coffee.png"
+    },
+    {
+        "Name": "Atlantic Seaside Hotel",
+        "Industry": "Hospitality",
+        "Physical Address": "89 Beach Rd, Sea Point, Cape Town",
+        "Website": "http://atlanticseaside.co.za",
+        "Phone": "+27 21 555 3333",
+        "Representative": "Nandi Dlamini / General Manager",
+        "MemberSince": "05/05/2015",
+        "Membership": "Gold",
+        "logo": "images/atlantic-hotel.png"
+    },
+    {
+        "Name": "GreenTech Solutions",
+        "Industry": "Environmental Technology",
+        "Physical Address": "78 Eco Park, Cape Town",
+        "Website": "https://greentech.co.za",
+        "Phone": "+27 21 555 4444",
+        "Representative": "Thabo Nkosi / CTO",
+        "MemberSince": "20/08/2016",
+        "Membership": "Gold",
+        "logo": "images/greentech-logo.png"
+    },
+    {
+        "Name": "Harbor Fitness Center",
+        "Industry": "Health & Wellness",
+        "Physical Address": "32 Dockside Avenue, Cape Town",
+        "Website": "http://harborfitness.co.za",
+        "Phone": "+27 21 555 5555",
+        "Representative": "Lara Smith / Manager",
+        "MemberSince": "12/12/2019",
+        "Membership": "Silver",
+        "logo": "images/harbor-fitness.png"
+    }
+]
