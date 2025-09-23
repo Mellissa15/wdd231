@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f8ff;
+}
+
+header,
+footer {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.thankyou-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2e7d32;
+}
+
+.user-info p {
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 2rem;
+    text-decoration: none;
+    background-color: #0066cc;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
