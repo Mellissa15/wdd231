@@ -35,7 +35,7 @@ header .nav-links a {
 
 header .nav-links a:hover,
 header .nav-links a.active {
-    color: #e67e22;
+    color: #22dfe6;
     /* Coral accent */
 }
 
@@ -75,7 +75,7 @@ h1 {
 
 .view-buttons button:hover,
 .view-buttons button.active {
-    background-color: #e67e22;
+    background-color: #22e6cc;
     /* Coral accent */
 }
 
@@ -119,7 +119,7 @@ h1 {
 .membership {
     margin-top: 1rem;
     font-weight: 600;
-    color: #e67e22;
+    color: #22dfe6;
     /* Coral */
 }
 

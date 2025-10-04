@@ -1,0 +1,57 @@
+.discover-layout {
+    display: grid;
+    grid-template-areas:
+        "sidebar"
+        "cards";
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: #f4f4f4;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.cards {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.03);
+}
+
+@media (min-width: 768px) {
+    .discover-layout {
+        grid-template-columns: 250px 1fr;
+        grid-template-areas: "sidebar cards";
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

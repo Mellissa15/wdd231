@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Table Mountain",
+        "image": "images/table_mountain.webp",
+        "address": "Cape Town, South Africa",
+        "description": "Iconic flat-topped mountain offering panoramic views."
+    },
+    {
+        "title": "V&A Waterfront",
+        "image": "images/va_waterfront.webp",
+        "address": "19 Dock Rd, Cape Town",
+        "description": "Bustling harbor with shops, restaurants, and attractions."
+    },
+    {
+        "title": "Robben Island",
+        "image": "images/robben_island.webp",
+        "address": "Cape Town, South Africa",
+        "description": "Historic island where Nelson Mandela was imprisoned."
+    },
+    {
+        "title": "Kirstenbosch Gardens",
+        "image": "images/kirstenbosch.webp",
+        "address": "Rhodes Dr, Newlands, Cape Town",
+        "description": "Stunning botanical gardens at the foot of Table Mountain."
+    },
+    {
+        "title": "Cape Point",
+        "image": "images/cape_point.webp",
+        "address": "Cape of Good Hope, South Africa",
+        "description": "Scenic reserve with dramatic cliffs and ocean views."
+    },
+    {
+        "title": "Bo-Kaap",
+        "image": "images/bo_kaap.webp",
+        "address": "Cape Town, South Africa",
+        "description": "Colorful neighborhood with rich cultural history."
+    },
+    {
+        "title": "Cape Winelands",
+        "image": "images/winelands.webp",
+        "address": "Stellenbosch & Franschhoek",
+        "description": "World-famous wine region with breathtaking vineyards."
+    },
+    {
+        "title": "Clifton Beaches",
+        "image": "images/clifton.webp",
+        "address": "Victoria Rd, Cape Town",
+        "description": "White-sand beaches popular for sunsets and swimming."
+    }
+]
