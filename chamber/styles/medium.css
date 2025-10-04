@@ -20,3 +20,24 @@
             "card5 card6 card7 card8";
     }
 }
+
+/* Fix nav links on medium and larger screens */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* On hover */
+nav a:hover {
+    background-color: #005fa3;
+    color: white;
+}
+
+/* Active page link */
+nav a.active {
+    background-color: #66b2ff;
+    color: black;
+}
