@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 1rem;
+}
+
+h1,
+h2 {
+    font-family: 'Lora', serif;
+}
+
+header {
+    background: #3fb5af;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #e8eaf6;
+}
+
+.filters {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.filter-btn {
+    background: #43b4ff;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.filter-btn:hover {
+    opacity: 0.9;
+}
+
+#events-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.event-card {
+    background: #fff;
+    border-left: 4px solid #43ffb1;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h3 {
+    color: #3fb5a5;
+}
+
+.contact {
+    background: #fff;
+    padding: 2rem 1rem;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact button {
+    background: #3fb5af;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+}
+
+footer {
+    background: #3fb5b5;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 90%;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    font-family: 'Lora', serif;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}

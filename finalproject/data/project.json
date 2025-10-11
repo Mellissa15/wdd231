@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Cape Town Art Fair",
+        "date": "2025-10-12",
+        "category": "exhibition",
+        "location": "CTICC",
+        "description": "Annual contemporary art fair featuring over 100 galleries.",
+        "image": "https://images.unsplash.com/photo-1514720822943-e1625ae92198?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870"
+    },
+    {
+        "title": "Watercolour Workshop",
+        "date": "2025-10-13",
+        "category": "workshop",
+        "location": "Woodstock Art Studio",
+        "description": "Hands-on workshop with local artist Lindiwe Mokoena.",
+        "image": "https://images.unsplash.com/photo-1696862048447-3ab8435ce5f1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870"
+    },
+    {
+        "title": "Night Gallery Show",
+        "date": "2025-10-14",
+        "category": "gallery",
+        "location": "Loop Street Gallery",
+        "description": "A curated night event showcasing local painters.",
+        "image": "https://images.unsplash.com/photo-1596649300028-340ad0ec6146?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870"
+    },
+    {
+        "title": "Sculpture in the City",
+        "date": "2025-10-16",
+        "category": "exhibition",
+        "location": "Company's Garden",
+        "description": "Outdoor sculpture exhibition by emerging South African artists.",
+        "image": "https://images.unsplash.com/photo-1635615412359-70574b3394b1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=387"
+    }
+]
